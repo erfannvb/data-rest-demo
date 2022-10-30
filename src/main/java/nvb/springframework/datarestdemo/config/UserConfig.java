@@ -1,13 +1,11 @@
 package nvb.springframework.datarestdemo.config;
 
-import lombok.AllArgsConstructor;
 import nvb.springframework.datarestdemo.model.User;
 import nvb.springframework.datarestdemo.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@AllArgsConstructor
 @Configuration
 public class UserConfig {
 
