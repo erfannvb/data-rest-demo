@@ -29,6 +29,30 @@ public class UserConfig {
                     .build();
 
             userRepository.save(jessica);
+
+            User dylan = User.builder()
+                    .firstName("Dylan")
+                    .lastName("Smith")
+                    .email("dylan.smith@gmail.com")
+                    .build();
+
+            userRepository.save(dylan);
+
+            User robert = User.builder()
+                    .firstName("Robert")
+                    .lastName("Clark")
+                    .email("rc@gmail.com")
+                    .build();
+
+            userRepository.save(robert);
+
+            User kevin = User.builder()
+                    .firstName("Kevin")
+                    .lastName("Collins")
+                    .email("k.collins@gmail.com")
+                    .build();
+
+            userRepository.save(kevin);
         };
     }
 
